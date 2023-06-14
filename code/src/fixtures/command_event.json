@@ -1,0 +1,59 @@
+{
+  "payload": {
+    "command": "/devrev-dev",
+    "text": "ticket-digest",
+    "channel_id": "C04TXDN6R61",
+    "user_id": "U04U0BZQQ8J",
+    "authorizations": [
+      {
+        "enterprise_id": null,
+        "is_bot": true,
+        "is_enterprise_install": false,
+        "team_id": "T04ULBGCM8T",
+        "user_id": "U04U0BZQQ8J"
+      }
+    ],
+    "event": {
+      "event_ts": "1679659158.247458",
+      "is_bot_user_member": false,
+      "links": [
+        {
+          "domain": "app.dev.devrev-eng.ai",
+          "url": "https://app.dev.devrev-eng.ai/flow-test/works/ISS-34"
+        }
+      ],
+      "message_ts": "1679659157.748829",
+      "source": "conversations_history",
+      "type": "link_shared",
+      "unfurl_id": "C04UDSUEPQW.1679659157.748829.6b187fe9586e4a965b784f364197ffac9a6fe148c54502a9c531ca8f6b680560",
+      "user": "U04UZ464Q1F"
+    },
+    "event_context": "4-eyJldCI6Imxpbmtfc2hhcmVkIiwidGlkIjoiVDA0VUxCR0NNOFQiLCJhaWQiOiJBMDNRSzgxOUc3NiIsImNpZCI6IkMwNFVEU1VFUFFXIn0",
+    "event_id": "Ev0501QL5V1T",
+    "event_time": 1679659158,
+    "is_ext_shared_channel": false,
+    "team_id": "T04ULBGCM8T",
+    "type": "event_callback"
+  },
+  "context": {
+    "dev_oid": "don:identity:dvrv-us-1:devo/8m46cp7R",
+    "automation_id": "don:integration:dvrv-us-1:devo/8m46cp7R:automation/9b81f45e-596f-4b14-9c15-15ba8a993be7",
+    "source_id": "don:integration:dvrv-us-1:devo/8m46cp7R:automation/9b81f45e-596f-4b14-9c15-15ba8a993be7",
+    "snap_in_id": "don:integration:dvrv-us-1:devo/8m46cp7R:snap_in/ffdae008-ba3a-4aab-83c6-981a29fca487",
+    "snap_in_version_id": "don:integration:dvrv-us-1:devo/8m46cp7R:snap_in_package/efefdc3a-37f7-45d0-a528-952b8ee28829:snap_in_version/4ec3f5f7-ee2d-4c61-b4e7-1d10e5b17b67"
+  },
+  "execution_metadata": {
+    "request_id": "",
+    "function_name": "issue-link-unfurl"
+  },
+  "input_data": {
+    "global_values": {},
+    "event_sources": {
+      "slack-events": "don:integration:dvrv-us-1:devo/8m46cp7R:event_source/06a2bed6-ffca-4ed1-8266-346ce5008baa"
+    },
+    "keyrings": {
+      "devrev": "eyJhbGciOiJSUzI1NiIsImlzcyI6Imh0dHBzOi8vYXV0aC10b2tlbi5kZXYuZGV2cmV2LWVuZy5haS8iLCJraWQiOiJzdHNfa2lkX3JzYSIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiamFudXMiXSwiYXpwIjoiZG9uOmlkZW50aXR5OmR2cnYtdXMtMTpkZXZvLzc4NzpkZXZ1LzMwMCIsImV4cCI6MjU0Mjc4MDA0NSwiaHR0cDovL2RldnJldi5haS9kZXZvX2RvbiI6ImRvbjppZGVudGl0eTpkdnJ2LXVzLTE6ZGV2by83ODciLCJodHRwOi8vZGV2cmV2LmFpL2Rldm9pZCI6IkRFVi03ODciLCJodHRwOi8vZGV2cmV2LmFpL2VtYWlsIjoiU3lzdGVtQGdlbmVyYXRlZC5jb20iLCJodHRwOi8vZGV2cmV2LmFpL3N5c3VpZCI6IlNZU1UtMSIsImh0dHA6Ly9kZXZyZXYuYWkvdG9rZW50eXBlIjoidXJuOmRldnJldjpwYXJhbXM6b2F1dGg6dG9rZW4tdHlwZTpzeXMiLCJpYXQiOjE2Nzg4NjY0NDUsImlzcyI6Imh0dHBzOi8vYXV0aC10b2tlbi5kZXYuZGV2cmV2LWVuZy5haS8iLCJqdGkiOiJkb246aWRlbnRpdHk6ZHZydi11cy0xOmRldm8vNzg3OnRva2VuL20zcGNRcWJVIiwic3ViIjoiZG9uOmlkZW50aXR5OmR2cnYtdXMtMTpkZXZvLzc4NzpzeXN1LzEifQ.jj4Gd1l_2heV29XzalhCki4XjY9oL282Qsr9QuaY2Q8gb4teeGrqkipxSZqZvrAxV1mQc80qNOYpjFhbsqaLpuL0Nyatjw1T0ravIJCWwYsAdDqW62HUc4uuUdjO1cJ5o0DtiD64YquU6W4fhPJEdW2PwyJz-6N-UX7qcx8FWpal2QAXlLu3bZxk54ZYK3nhmLyonytbXhwMwnaMeZJyK3uX_Ck718Oq_xy3VdKShFInoII_OaMZzKnqakY6t7vWEp6oEijZqLx7rb30TJN8gOjbjBmjf0JisFAD6MIbG_JarLVCQgQX4OiPQt8zZn47N2wCx-UGnsSPusf1e_TKyg",
+      "slack_app_connection": "xoxe.xoxb-1-MS0yLTQ5NjUwMjkwMDgxMjktNDk2NTA0NDU3MDY4OS00OTU0ODg0NDY3MzY0LTUwODIwODA0OTcyMjEtNWZlMzI3OWRlZGMxZWQyZTYyMjJkNTUyZTM5NDQwZmY1NTJlYjUyODBmZjQwODBhNDRkNzE2Mzk1ODI3MTNmYg"
+    }
+  }
+}

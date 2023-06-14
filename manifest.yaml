@@ -1,0 +1,34 @@
+version: "1"
+
+name: "e2e_snap_in"
+description: "A snap-in for Build on Slack"
+
+connections:
+  - name: devrev
+    description: DevRev PAT
+    types:
+      - devrev-pat
+  - name: slack_app_connection
+    display_name: Slack connection (must be set up as dev org connection)
+    types: 
+      - devrev-slack-app
+
+service_account:
+  display_name: "DevRev Bot"
+
+event-sources:
+  - name: slack-commands
+    display_name: Slack interactions
+    type: slack-app-commands
+    connection: slack_app_connection
+
+functions:
+  - name: fetch_ticket_digest
+    description: Function for fetching daily digest of all DevRev tickets.
+
+automations:
+  - name: Command_for_DevRev_issue_creation_on_Slack
+    source: slack-commands
+    event_types:
+      - slack.command
+    function: fetch_ticket_digest
